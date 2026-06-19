@@ -1,7 +1,8 @@
+
 public class HelloWorld {
-    public static void main(String[] args) {
+    public static void hayst(String[] args) {
         System.out.println("Hello, World!");
-        System.out.println("I'm dazzel Ann C. cabias"); 
+        System.out.println("I'm Dazzel Ann C Cabias"); 
         System.out.println("13678923849l");
         System.out.println("I'm 17 years old.");
         System.out.println("I live at Caloocan City");
