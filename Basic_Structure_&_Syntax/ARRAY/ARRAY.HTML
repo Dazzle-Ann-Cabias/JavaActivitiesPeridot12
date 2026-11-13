@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="cleaning"></p>
+<p id="washing"></p>
+<p id="wiping"></p>
+<p id="swiping"></p>
+<p id="squizzing"></p>
+
+<script>
+    let  = [0, 1, 2, 3, 4];
+
+    document.getElementById("cleaning").innerHTML = arr;
+
+    arr.pop();
+    document.getElementById("washing").innerHTML += "<br>" + arr;
+
+    arr.push(6);
+    document.getElementById("wiping").innerHTML += "<br>" + arr;
+
+    arr.shift();
+    document.getElementById("swiping").innerHTML += "<br>" + arr;
+
+    arr.unshift(0);
+    document.getElementById("squizzing").innerHTML += "<br>" + arr;
+    </script>
+
+</body>
+</html>
